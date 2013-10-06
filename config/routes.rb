@@ -1,6 +1,9 @@
 Healyexchange::Application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
+  
+  get 'static/about'
+  # this is defining the about action of the static controller as a get request
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
